@@ -121,8 +121,9 @@ button{
     border-color: transparent;   
 }
 iframe{
-    min-width: 80vw;
-    max-width: 80vw;
+    
+    width: 80vw;
+    height: 40vw;
 }
 .About-us, .events_, .Media_, .contact_ {
     height: 50vh;
