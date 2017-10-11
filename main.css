@@ -581,7 +581,7 @@ h5{
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 700;
-    font-size: 20vw;
+    font-size: 10vw;
     
     color: white;
     
@@ -600,7 +600,7 @@ h5{
 .cover9 > p{
     mix-blend-mode: difference;
     color: lightcyan;
-    font-size: 20vw;
+    font-size: 17vw;
     position: absolute;
     bottom: 0;
     left: 0vh;
