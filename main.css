@@ -99,12 +99,13 @@ button{
 
 .front-pg{
     padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 5vw;
     padding-right: 5vw;
     text-align: center;
     color: aliceblue;
     font-size: 2vw;
-    height: 80vh;
+    min-height: 80vh;
 }
 .front-pg > p{
     padding-bottom: 3vh;
