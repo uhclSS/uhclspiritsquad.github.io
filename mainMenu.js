@@ -1,7 +1,7 @@
 //*************************************** Objects *****************************************************
 var news = {
     main_Name: "News",
-    main_Link: "news.html",
+    main_Link: "html/news.html",
     
     sub_DropNames: "null",
     sub_DropList: "null",
