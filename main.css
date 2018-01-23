@@ -1,607 +1,188 @@
-html, body, container{
-    width: 100%;
-    height: 100%;
+html{
+    z-index: 0;
 }
-body{
-    background: black;
+#top{
+    height: 5vh;
 }
-.cover{
-    padding-top: 0vh;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 80vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Covers/group.jpg") no-repeat center fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+#menu{
+    align-content: space-between;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-bottom: 10vh;
+    background-color: dodgerblue;
+    min-height:10vh;
+    max-height: 10vh;
 }
-.cover > p{
-    mix-blend-mode: difference;
-    color: greenyellow;
-    font-size: 10vw;
-    position: absolute;
-    left: 0vw;
-    bottom:0vh;
+.btn-group{
+    display: inline-flex;
 }
-.menu{
-    width: 100%;
-    padding-top: 0vh;
-}
-.btn ,.btn-circle ,.page-scroll > container{
-    background-color: black;
-}
-
-
-button{
-    height: 15vh;
-    
+#submenu{
+    white-space:normal;
+    overflow-wrap: break-word;
 }
 .btn{
-    transition-duration: .5s, .5s;
-    transition-timing-function: ease-in-out;
-    z-index: 0;
-    /*background-blend-mode: color;*/
-    font-weight: 900;
-    outline-color: black;
-    font-size: 4vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2vh;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-.about{
-    background: url(Covers/1.jpg) no-repeat center;
-    background-size:cover;
-    color: invert(100%);
-    
+.btn:hover, .btn:hover p{
+    background-color: transparent;
+    color:black;
 }
-
-.events{
-    
-    background: url(Covers/5.jpg) no-repeat center;
-    background-size:cover;
+#top .glyphicon:hover{
+    color: limegreen;
 }
-.media{
-    background: url(Covers/3.jpg) no-repeat center;
-    background-size:cover;
+.btn:active:focus p, .btn:active:focus, .sub-btn:active, btn-group:active, menu-btn:active{
+    color: greenyellow;
+    background: dodgerblue;
+    background-color: transparent;
 }
-.contact{
-    
-    background: url(Covers/4.jpg) no-repeat top center;
-    background-size:cover;
+.btn:visited:focus, .btn:visited:focus p{
+    color: blueviolet;
 }
-.btn-default > p{
-    transition-duration: .5s, .5s;
-    transition-timing-function: ease-in-out;
-    z-index: 1;
-    color: white;
-    filter: none;
-    
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: transparent!important;
+    color: greenyellow;
 }
-.btn-default:hover > p{
-    z-index: 1;
-    mix-blend-mode: exclusion;
-    text-transform: full-width;
-    filter: none;
-    
-}
-.btn-default:hover{
-    background-blend-mode: hard-light;
-}
-
-
-.front-pg{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+.btn-group p{
+    color:white;
     text-align: center;
-    color: aliceblue;
-    font-size: 2vw;
-    min-height: 80vh;
 }
-.front-pg > p{
-    padding-bottom: 3vh;
+.btn-group .menu-btn p{
+    text-align: left;
 }
-.navbar-default{
-    background-color: green;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 2vw;
-    border-color: transparent
+#submenu{
+    padding-top: 2vh;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    background-color: dodgerblue;
+    width: 15vw;
+    max-width: 500px;
+    float: left;
 }
-.container{
-    background-color: green;
-    border-color: transparent;   
+#submenu p{
+    width: 15vw;
+    white-space: normal;
+    overflow-wrap: break-word;
+    padding-left: 10px;
+    text-align: left;
 }
 iframe{
-    
-    width: 80vw;
-    height: 40vw;
-}
-.About-us, .events_, .Media_, .contact_ {
-    height: 50vh;
-    padding-top: 15vh;
-    text-align: center;
-}
-h1
-{
-    mix-blend-mode: difference;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    font-size: 10vw;
-    
-}
-.About-us{
-    background: url(FRONTPG/Blue.jpg) repeat center scroll,  url(FRONTPG/aboot.jpg)no-repeat bottom fixed;
-    background-blend-mode:color-dodge;
-    background-size: cover;
-}
-.events_{
-    background: url(FRONTPG/Gold.jpg) repeat center scroll, url(FRONTPG/group2.jpg) no-repeat top fixed;
-    background-blend-mode: overlay;
-    background-size: cover;
-}
-.Media_{
-    background: url(FRONTPG/Green.jpg) repeat center scroll, url(FRONTPG/burst.gif) no-repeat center fixed;
-    background-blend-mode: color-burn;
-    background-size: cover;
-}
-.contact_{
-    background: url(FRONTPG/blue.jpg) repeat center scroll, url(FRONTPG/contact.jpg) no-repeat top fixed;
-    background-blend-mode: color-dodge;
-    background-size: cover;
-}
-.news > h2{
-    font-size: 5vw;
-    padding-bottom: 1vh;
-}
-.news{
-    float: right;
-    margin: 0vw;
-    color: white;
-    text-align:center;
-    padding-top: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    font-size: 2vw;
-}
-.news > img{
-}
-.glyphicon-home{
-    background: none;
-    color: white;
-    position: absolute;
-    left: 0px;
-}
-/*This is now for about us*/
-.cover2{
-    padding-top: 0vh;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 80vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Covers/aboot.jpg") no-repeat center fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.cover2 > p{
-    mix-blend-mode: exclusion;
-    color: Gold;
-    font-size: 20vw;
+    width:56vw;
+    height:31.5vw;
     text-align: left;
-    padding-bottom: 0vh;
-    position: absolute;
-    bottom: 0vh;
-    left: 0px;
-    
-}
-.Mission_S > h1{
-    padding-top: 5vh;
-}
-.Mission_S > p{
-    color: white;
-    font-size: 2.2vw;
-    text-align: center;
-    padding-top: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    
-}
-/*This is now for Events*/
-.cover3{
-    padding-top: 375px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 8vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Covers/events.jpg") no-repeat center fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.cover3 > p{
-    mix-blend-mode: exclusion;
-    font-size: 25vw;
-    color: greenyellow;
-    position: absolute;
-    bottom: 0vh;
-    left: 0px;
-}
-.Events_S > h1{
-    padding-top: 0vh;
-}
-.Events_S > p{
-    font-size: 3vh;
-    color: white;
-    text-align: center;
-    min-height: 70vh;
-}
-/*This is now for Media*/
-.cover4{
-    padding-top: 0vh;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 8vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Covers/pompom.gif") no-repeat center fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.cover4 > p{
-    mix-blend-mode: exclusion;
-    color: gold;
-    font-size: 30vw;
-    position: absolute;
-    bottom: 0vh;
-    left: 0px;
-}
-.Media_S > h1 {
+    margin-right:10vw;
+    margin-bottom: 10vh;
     float: right;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#menu .menu-btn{
+    background-color: transparent;
+    height: 10vh;
+    white-space: normal;
+    overflow-wrap: break-word;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sub-btn{width: 10vw; height: 8vh;}
+#sub-menu{text-align:center;}
+.img-body{
+    width: 35vw;
+    max-width: 500px;
+    margin-right:21vw;
+    margin-left: 20vw;
+    float:right;
+    
+}
+#top h1{
+    padding-left: 8vh;
+    color: mediumblue;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 5vh;
+    line-height: 2vh;
+}
+#top .glyphicon{
+    line-height: 5vh;
+    position: absolute;
+    color: black;
+    font-size: 5vh;
+    background-color: transparent;
+}
+.body-txt{
+    float: left; 
+    color: mediumblue;font-size: 5vh;font-family: sans-serif;font-weight: 200;padding-left: 30vw;text-align: left;}
+/*For main page*/
+.carousel, .carousel-item{
+    width: 100vw;
+    height: 50vh;
+    top: 0;
+    left:0;
+}
+.carousel-item img{
+    height: 55vh;
+    width: 100vw;
+    object-fit:cover;
+    filter:brightness(.5) grayscale(.5);
+}
+.carousel-item h1{
+    color: white;
     font-size: 5vw;
-    color: white;
-    padding: 0vh;
-}
-.CheerC_1 > .btn, .TryOut_1 > .btn, .Cheers_1 >.btn, .Dances_1 >.btn {
-    float: left;
-    padding: 10vw;
-    padding-right: 2vw;
-    background-color: greenyellow;
-  height: 50vh;
-  width: 50vh;
-  border-radius: 50%;
-}
-.CheerC_1 > h1, .TryOut_1 > h1, .Cheers_1 >h1, .Dances_1 > h1{
-    float: top;
-} 
-.CheerC_1 > p, .TryOut_1 > p, .Cheers_1 >p, .Dances_1 > p{
-    padding-left: 2vw;
-    padding-right: 2vw;
-    color: white;
+    z-index: 20;
+    width: 100vw;
+    height: 55vh;
     text-align: center;
-    font-size: 2vw;
-    float: center;
-} 
-.CheerC_1, .TryOut_1, .Cheers_1, .Dances_1{
-    min-height: 800px;
-    padding: 20px;
+    line-height: 50vh;
+    position: absolute;
 }
-.cheerC:hover, .TryOut:hover, .Cheers:hover,.Dances:hover{
-    background-blend-mode: multiply;
+div.carousel-item {
+    max-width: 300px;
+    overflow: hidden;
 }
-.cheerC {
-    background: url(Mediass/cheer_camp.jpg)top;
+.dropdown-toggle,.dropdown-submenu,li a.inner-links, a.inner-links{
+    padding-left: 10px;
+    width: 15vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    height: 3vh;
+    text-align: left;
+    color:white;
+    max-width: 500px;
 }
-.TryOut {
-    background: url(Mediass/tryouts.jpg)center;
-}
-.Cheers {
-    background: url(Mediass/cheers.jpg)center;
-}
-.Dances {
-    background: url(Mediass/Dances.jpg)top;
-}
-.fluff{
-    min-height: 10vh;
+#dropdownMenuLink:active,#dropdownMenuLink:focus, #dropdownMenuLink:checked{
+    color:lawngreen;
 }
 .dropdown-menu{
-    background-color: greenyellow;
-    color: deepskyblue;
-    padding: 3vw;
-    font-size: 2vw;
-    border: none;
-    cursor: pointer;
-    position: relative;
+    background-color: #2283e5;
 }
-.dropdown-menu_C:focus{
-     cursor: pointer;
-     width: 10vw;
-    position: relative;
-    display:inline-block;
-}
-.btn_C{
-    color: blue;
-    background-color: greenyellow;
-}
-.btn_C:hover, .btn_C:focus{
-    background-color: green;
-    color: darkblue;
-}
-.btn-group_C{
-    padding-left: 4vw;
-    padding-right: 4vw;
-}
-/*This is now for Kids Camp Media*/
-.cover5{
-    padding-top: 3vh;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 8vw;
-    
-    color: white;
-    
+.dropdown-menu > a{
+    width: 15vw;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    max-width: 500px;
     display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Mediass/cheer_camp.jpg") no-repeat center fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    color: white;
 }
-.cover5 > p{
-    mix-blend-mode: difference;
-    color: deepskyblue;
-    font-size: 16vw;
-    position: absolute;
-    bottom: 0vh;
-    left: 0vw;
+.dropdown-menu > a:active, .dropdown-menu > a:checked{
+    color: lawngreen;
+}
+.menu-btn:active, .menu-btn:after{
+    display: block;
+}
+.dropdown-submenu {
+    position: relative;
 }
 
-h2, h3, h5{
-    color: white;
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 0%;
+    margin-top: -1px;
 }
-h3, h5{
-    text-align: center;
-}
-.Kids_Camp_Media{
-    width: 100%;
-    align-self: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
-}
-.ages3_4_17 > iframe {
-    align-content: center;
-    text-align: center;
-}
-.KidsC{
-    padding-left: 5vw;
-    padding-right: 5vw;
-    text-align: center;
-}
-.Camp_2017> h2, .Camp_2017 > h3,.Camp_2016> h2, .Camp_2016 > h3{
-    text-align: left;
-}
-h2{
-    font-size: 5vw;
-    color: greenyellow;
-    text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
-}
-h3{
-    font-size: 4vw;
-}
-h5{
-    padding-top: 4vh;
-    padding-bottom: 0px;
-    font-size: 3vw;
-}
-.KCamp_2017 > h1,.KCamp_2016 > h1{
-    color:blue;
-    text-shadow: -10px 0 deepskyblue, 0 1px deepskyblue, 1px 0 deepskyblue, 0 -1px deepskyblue;
-}
-.KCamp_2016 > .btn-group, .KCamp_2017 > .btn-group{
-    width: 100%;
-    text-align: center;
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
-.KidsC > h2{
-    font-size: 15vw;
-    text-shadow: -10px 0 Green, 0 1px Green, 1px 0 Green, 0 -1px Green;
-}
-.KidsC > h3{
-    color: blue;
-    text-align: left;
-    font-size: 5vw;
-    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
-}
-.KidsC > p{
-    color: white;
-    font-size: 2vw;
-}
-/* This is now for Tryouts */
-.cover6{
-    padding-top: 0vh;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 8vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Mediass/tryouts.jpg") no-repeat bottom fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.cover6 > p{
-    mix-blend-mode: difference;
-    color: goldenrod;
-    font-size: 20vw;
-    position: absolute;
-    bottom: 0vh;
-    left: 0vw;
-}
-.Tryout_Vids, .Cheer_Vids, .Dance_Vids{
-    text-align: center;
-}
-.Cheer_Vids > h5{
-    padding: 0vw;
-}
-/* This is now for Cheers */
-.cover7{
-    padding-top: -vw;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 8vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Mediass/cheers.jpg") no-repeat center fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.cover7 > p{
-    mix-blend-mode: difference;
-    color: deeppink;
-    font-size: 25vw;
-    position: absolute;
-    bottom: 0vh;
-    left: 0vw;
-}
-/* This is now for Dances */
-.cover8{
-    padding-top: 0vh;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 20vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Mediass/Dances.jpg") no-repeat top fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.cover8 > p{
-    mix-blend-mode: difference;
-    color: deeppink;
-    font-size: 25vw;
-    position: absolute;
-    bottom: 0vh;
-    left: 0vw;
-}
-.btn_D, .btn-group_D{
-    background-color: greenyellow;
-    color: darkblue;
-    top: 0vh;
-    right: 0vh;
-    position: fixed;
-    min-width: 20vw;
-    z-index:3000;
-}
-.fa, .glyphicon{
-    font-size: 10vw;
-}
-.links_contacts{
-    text-align: center;
-}
-/* This is now for Dances */
-.cover9{
-    padding-top: 0vh;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    font-size: 10vw;
-    
-    color: white;
-    
-    display: table;
-    margin: 0;
-    min-height: 100vh;
-    
-    background: url("Covers/4.jpg") no-repeat top fixed;
-    width: 100%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.cover9 > p{
-    mix-blend-mode: difference;
-    color: lightcyan;
-    font-size: 17vw;
-    position: absolute;
-    bottom: 0;
-    left: 0vh;
+.dropdown-submenu .sub-layer{
+    left:100%;
 }
