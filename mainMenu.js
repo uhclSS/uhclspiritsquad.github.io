@@ -10,6 +10,7 @@ var news = {
     sub_SingleNames: "null",
     sub_SingleLinks: "null"
 };
+localStorage.setItem("news_Object", news);
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var events = {
     main_Name: "Upcoming Events",
@@ -22,6 +23,7 @@ var events = {
     sub_SingleNames: "null",
     sub_SingleLinks: "null"
 };
+localStorage.setItem("events_Object", events);
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var tryouts = {
     main_Name: "Tryouts",
@@ -34,6 +36,7 @@ var tryouts = {
     sub_SingleNames: ["Information", "Cheer", "Dance", "Jumps","Tumbling", "Video submissions"],
     sub_SingleLinks: "#"
 };
+localStorage.setItem("tryouts_Object", tryouts);
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var dance = {
     main_Name: "Dances",
@@ -45,7 +48,8 @@ var dance = {
     
     sub_SingleNames: "null",
     sub_SingleLinks: "null"
-}
+};
+localStorage.setItem("dance_Object", dance);
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var cheers = {
     main_Name: "Cheers",
@@ -57,7 +61,8 @@ var cheers = {
     
     sub_SingleNames: ["Don't worry we're here", "hey crowd", "S.P.I.R.I.T.", "We are here to have some fun"],
     sub_SingleLinks: "#"
-}
+};
+localStorage.setItem("cheers_Object", cheers);
 //*************************************** Objects End **********************************************
 var x = "";// start of base write to doc
 

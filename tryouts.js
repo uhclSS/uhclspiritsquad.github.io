@@ -1,5 +1,7 @@
 var buttonnums, style, f, m, e, x, link, name;
 
+var recieved_Object = localStorage.getItem("tryouts_Object")
+alert(recieved_Object.sub_SingleNames);
 var names=["Information", "Cheer", "Dance", "Jumps","Tumbling", "Video submissions"];
 var links ="#";
 buttonnums = names.length;
