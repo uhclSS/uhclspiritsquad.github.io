@@ -61,4 +61,5 @@ while(ans === "Yes"){
 localStorage.setItem("linkSetup", s);
 }
 s=localStorage.getItem("linkSetup");
+alert(s);
 document.write(s);

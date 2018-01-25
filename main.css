@@ -113,8 +113,14 @@ iframe{
     background-color: transparent;
 }
 .body-txt{
-    float: left; 
+    /*float: left; */
     color: mediumblue;font-size: 5vh;font-family: sans-serif;font-weight: 200;padding-left: 30vw;text-align: left;}
+h5.body-txt{
+    font-size: 2vh;
+}
+h3.body-txt{
+    font-size: 3vh;
+}
 /*For main page*/
 .carousel, .carousel-item{
     width: 100vw;
@@ -185,4 +191,7 @@ div.carousel-item {
 }
 .dropdown-submenu .sub-layer{
     left:100%;
+}
+.fluff{
+    height: 10vh;
 }

@@ -76,6 +76,7 @@ for(var i = 0; i< buttonnums; i++){
 style = "<style>.menu-btn{width:" + ((70/buttonnums)) + "vw;}</style>";
 x += style;
 document.write(x);
+alert(x);
 //WriteToFile(x);
 //Set
 localStorage.setItem("menuSetup", x);

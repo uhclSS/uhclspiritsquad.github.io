@@ -1,8 +1,10 @@
 var buttonnums, style, toggleOpen, toggleName, toggleClose,subOpen,subName,subLink,subMid,subClose,toggleEnd, x;
 
-var names=["2016", "2017"];
-var under = [["Work (S)", "HipHop (F)", "Christmas Mix"],["Put Your Hands Up (S)", "HO HO HO HOLD UP", "Bruh (F)", "Boss (S)"]];
-var links ="#";
+var recieved= JSON.parse(localStorage.getItem('dance_Object'));
+
+var names = recieved.sub_DropNames;
+var under = recieved.sub_DropList;
+var links = recieved.sub_DropLinks;
 
 //toggleOpen,*toggleName*,toggleClose
 //(toggleClose includes sublinks opening)

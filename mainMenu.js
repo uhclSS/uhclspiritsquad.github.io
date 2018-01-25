@@ -1,7 +1,7 @@
 //*************************************** Objects *****************************************************
 var news = {
     main_Name: "News",
-    main_Link: "html/news.html",
+    main_Link: "news.html",
     
     sub_DropNames: "null",
     sub_DropList: "null",
@@ -10,20 +10,20 @@ var news = {
     sub_SingleNames: "null",
     sub_SingleLinks: "null"
 };
-localStorage.setItem("news_Object", news);
+localStorage.setItem('news_Object', JSON.stringify(news));
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var events = {
-    main_Name: "Upcoming Events",
+    main_Name: "Cheer Camp",
     main_Link: "#",
     
     sub_DropNames: ["2017","2016"],
-    sub_DropList: [["Cheer Camp"],["Cheer Camp"]],
+    sub_DropList: [["Ages 3-4", "Grades 3-5", "Grades 6-8", "Grades 9-12", "Grades K-2"],["Ages 3-4", "Grades 3-5", "Grades 6-8", "Grades 9-12", "Grades K-2"]],
     sub_DropLinks: "#",
     
     sub_SingleNames: "null",
     sub_SingleLinks: "null"
 };
-localStorage.setItem("events_Object", events);
+localStorage.setItem('events_Object', JSON.stringify(events));
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var tryouts = {
     main_Name: "Tryouts",
@@ -34,9 +34,9 @@ var tryouts = {
     sub_DropLinks: "null",
     
     sub_SingleNames: ["Information", "Cheer", "Dance", "Jumps","Tumbling", "Video submissions"],
-    sub_SingleLinks: "#"
+    sub_SingleLinks: ["tryout_Info.html", "tryout_cheer.html", "tryout_dance.html", "tryout_jumps.html","tryout_tumbling.html", "tryout_sub.html",]
 };
-localStorage.setItem("tryouts_Object", tryouts);
+localStorage.setItem('tryouts_Object', JSON.stringify(tryouts));
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var dance = {
     main_Name: "Dances",
@@ -49,7 +49,7 @@ var dance = {
     sub_SingleNames: "null",
     sub_SingleLinks: "null"
 };
-localStorage.setItem("dance_Object", dance);
+localStorage.setItem('dance_Object', JSON.stringify(dance));
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 var cheers = {
     main_Name: "Cheers",
@@ -60,9 +60,9 @@ var cheers = {
     sub_DropLinks: "null",
     
     sub_SingleNames: ["Don't worry we're here", "hey crowd", "S.P.I.R.I.T.", "We are here to have some fun"],
-    sub_SingleLinks: "#"
+    sub_SingleLinks: ["cheer_0.html","cheer_1.html","cheer_2.html","cheer_3.html"]
 };
-localStorage.setItem("cheers_Object", cheers);
+localStorage.setItem('cheers_Object', JSON.stringify(cheers));
 //*************************************** Objects End **********************************************
 var x = "";// start of base write to doc
 
