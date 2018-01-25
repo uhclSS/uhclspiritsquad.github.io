@@ -34,7 +34,7 @@ var tryouts = {
     sub_DropLinks: "null",
     
     sub_SingleNames: ["Information", "Cheer", "Dance", "Jumps","Tumbling", "Video submissions"],
-    sub_SingleLinks: ["tryout_Info.html", "tryout_cheer.html", "tryout_dance.html", "tryout_jumps.html","tryout_tumbling.html", "tryout_sub.html",]
+    sub_SingleLinks: ["tryout_info.html", "tryout_cheer.html", "tryout_dance.html", "tryout_jumps.html","tryout_tumbling.html", "tryout_sub.html",]
 };
 localStorage.setItem('tryouts_Object', JSON.stringify(tryouts));
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
