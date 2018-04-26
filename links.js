@@ -27,8 +27,8 @@ function vid(nums){
 }
 function txt(nums){
     var n ="";
-    var s = "<h1 class = \"body-txt\">";
-    var e = "</h1>"
+    var s = "<h3 class = \"body-txt\">";
+    var e = "</h3>"
     for (var i = 0; i < nums; i++){
         fill = prompt("What text would you like to add?", "Enter text here");
         n = n.concat(s,fill,e);

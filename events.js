@@ -33,7 +33,7 @@ for (var i = 0; i < buttonnums; i++){
     
     for (var j =0 ; j < subNum; j++){
         subName = under[i][j];
-        subLink = links;
+        subLink = links[i][j];
         x = x.concat(subOpen,subLink,subMid,subName,subClose);
     }
     x = x.concat(toggleEnd);
