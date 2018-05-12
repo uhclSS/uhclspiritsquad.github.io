@@ -18,7 +18,7 @@ var events = {
     
     sub_DropNames: ["2017", "2016"],
     sub_DropList: [["Ages 3-4", "Grades 3-5", "Grades 6-8", "Grades 9-12", "Grades K-2"], ["Ages 3-4", "Grades 3-5", "Grades 6-8", "Grades 9-12", "Grades K-2"]],
-    sub_DropLinks: [["cc16_34.html", "cc16_35.html", "cc16_68.html", "cc16_912.html", "cc16_k2.html"], ["cc17_34.html", "cc17_35.html", "cc17_68.html", "cc17_912.html", "cc17_k2.html"]],
+    sub_DropLinks: [["cc17_34.html", "cc17_35.html", "cc17_68.html", "cc17_912.html", "cc17_k2.html"],["cc16_34.html", "cc16_35.html", "cc16_68.html", "cc16_912.html", "cc16_k2.html"]],
     
     sub_SingleNames: "null",
     sub_SingleLinks: "null"
